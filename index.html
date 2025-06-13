@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>AgroBrasil</title>
+
+    <meta
+      name="description"
+      content="Projeto referente a Agronomia do pais, e em como ela pode ser utilizada, e seus beneficios"
+    />
+    <meta
+      name="keywords"
+      content="agro, Agronomia, pecuaria, agropecuaria, brasil, conhecimento"
+    />
+    <meta name="author" content="Kauan Henrique Faria da Silva" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Pular para o conteúdo principal</a>
+    <!--cabeçalho-->
+    <header class="cabecalho" role="banner">
+      <!-- Nome do site/ logo-->
+      <div class="container">
+        <a
+          href="/index.html"
+          class="nome-pag"
+          aria-label="Ir para página inicial"
+        >
+          <h2>AgroBrasil</h2>
+        </a>
+      </div>
+      <!--Barra de navegação do cabeçalho-->
+      <nav class="nav-bar" role="navigation" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#inovacoes">Inovações</a></li>
+          <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!--Home simples do site, apenas uma apresentação-->
+      <section
+        class="Home"
+        id="Home"
+        aria-label="Introdução ao site, boas vindas"
+      >
+        <h2>Agro Brasil</h2>
+        <p>
+          Bem-vindo ao site, aqui nós apresentamos um pouco sobre a Agronomia no
+          pais, seus pontos fortes e como ela afeta no nosso dia a dia.
+        </p>
+      </section>
+
+      <section
+        class="sobre"
+        id="sobre"
+        aria-label="Explicação do Conteúdo Principal "
+      >
+        <h3>Introdução ao Agro no Brasil</h3>
+        <p>
+          O agronegócio é uma das principais forças da economia brasileira.
+          Responsável por cerca de 25% do PIB nacional, ele engloba atividades
+          que vão da produção no campo até a distribuição de alimentos. O Brasil
+          se destaca como um dos maiores exportadores de soja, milho, carne
+          bovina e café no mundo.
+        </p>
+        <p>
+          Esse sucesso se deve a fatores como clima favorável, solo fértil e
+          investimento em tecnologia e pesquisa. Além disso, o setor tem buscado
+          formas mais sustentáveis de produzir, com práticas como a Integração
+          Lavoura-Pecuária-Floresta (ILPF).
+        </p>
+        <p>
+          O agro é, portanto, essencial não só para o desenvolvimento econômico,
+          mas também para a segurança alimentar global.
+        </p>
+        <p>
+          Fonte:
+          <a
+            href="https://www.gov.br/agricultura/pt-br"
+            target="_blank"
+            rel="noopener"
+            class="btn-fonte"
+            >MAPA</a
+          >
+          <a
+            href="https://www.ibge.gov.br/explica/producao-agropecuaria/"
+            target="_blank"
+            rel="noopener"
+            class="btn-fonte"
+            >IBGE</a
+          >
+          <a
+            href="https://www.embrapa.br"
+            target="_blank"
+            rel="noopener"
+            class="btn-fonte"
+            >Embrapa</a
+          >
+          <a
+            href="https://www.fao.org/brasil/pt/"
+            target="_blank"
+            rel="noopener"
+            class="btn-fonte"
+            >FAO Brasil</a
+          >
+        </p>
+      </section>
+
+      <section
+        id="integracao-campo-cidade"
+        aria-label="Integração entre o campo e a cidade"
+      >
+        <h2>Integração entre o Campo e a Cidade</h2>
+        <p>
+          A relação entre o campo e a cidade é fundamental para o funcionamento
+          da sociedade moderna, e o agronegócio é um dos principais elos dessa
+          conexão. A produção agrícola realizada no campo abastece os centros
+          urbanos com alimentos, matérias-primas e energia. Por outro lado, a
+          cidade fornece ao campo tecnologias, insumos, infraestrutura logística
+          e serviços que tornam a produção mais eficiente.
+        </p>
+        <p>
+          Essa integração é cada vez mais fortalecida por inovações no
+          transporte, armazenamento e distribuição, que permitem que produtos do
+          interior cheguem com qualidade às prateleiras urbanas. Além disso,
+          consumidores urbanos influenciam diretamente as tendências de produção
+          no campo, exigindo sustentabilidade, rastreabilidade e qualidade.
+        </p>
+        <p>
+          O campo e a cidade, portanto, não funcionam de forma isolada. Eles
+          formam um ciclo interdependente, onde o desenvolvimento de um
+          contribui diretamente para o avanço do outro.
+        </p>
+      </section>
+
+      <!--Seção de cards viraveis interativos-->
+      <section>
+        <div class="flip-cards">
+          <input type="checkbox" id="card1" hidden />
+          <label class="card" for="card1">
+            <div class="card-inner">
+              <div class="card-front">
+                <h3>🌱 Agricultura<br>Clique Aqui</h3>
+              </div>
+              <div class="card-back">
+                <p>
+                  É a atividade que envolve o cultivo da terra para produzir
+                  alimentos, como grãos, frutas, verduras e fibras. Envolve
+                  plantio, manejo do solo, irrigação e colheita.
+                </p>
+              </div>
+            </div>
+          </label>
+
+          <input type="checkbox" id="card2" hidden />
+          <label class="card" for="card2">
+            <div class="card-inner">
+              <div class="card-front">
+                <h3>🐄 Pecuária<br>Clique Aqui</h3>
+              </div>
+              <div class="card-back">
+                <p>
+                  É a criação de animais, como gado, porcos e aves, para
+                  produção de carne, leite, ovos, couro e outros produtos.
+                </p>
+              </div>
+            </div>
+          </label>
+
+          <input type="checkbox" id="card3" hidden />
+          <label class="card" for="card3">
+            <div class="card-inner">
+              <div class="card-front">
+                <h3>🌾 Agropecuária<br>Clique Aqui</h3>
+              </div>
+              <div class="card-back">
+                <p>
+                  É a combinação das atividades de agricultura e pecuária, ou
+                  seja, envolve tanto o cultivo de plantas quanto a criação de
+                  animais para produção de alimentos e outros bens.
+                </p>
+              </div>
+            </div>
+          </label>
+        </div>
+      </section>
+
+      <!--Seção sobre os tipos de agricultura-->
+      <section class="agri-fam-emp">
+        <h2>Diferença entre Agricultura Familiar e Agricultura Empresarial</h2>
+        <div class="agri-fam">
+          <h3>Agricultura Familiar</h3>
+          <p>
+            Agricultura familiar é o cultivo da terra realizado por pequenos
+            proprietários rurais, tendo como mão de obra, essencialmente, o
+            núcleo familiar ― em contraste com a agricultura patronal, que
+            utiliza trabalhadores contratados, fixos ou temporários, em
+            propriedades médias ou grandes, sendo que ambas são componentes
+            importantes da cadeia do Agronegócio.<br />Em 2021, a agricultura
+            familiar era responsável por cerca de 35% dos alimentos produzidos
+            no mundo.
+          </p>
+        </div>
+        <div class="agri-emp">
+          <h3>Agricultura Empresarial</h3>
+          <p>
+            O agronegócio no Brasil, também conhecido abreviadamente como
+            "agro", refere-se a um conjunto integrado de atividades econômicas
+            agropecuárias e todos os serviços, técnicas e equipamentos a ela
+            relacionados, direta ou indiretamente, envolvendo a produção e
+            distribuição de suprimentos e insumos, produção direta nas unidades
+            agrícolas, processamento, acondicionamento, armazenamento e
+            distribuição dos produtos agrícolas e outros produzidos a partir
+            deles, e operações comerciais e financeiras. Estão incluídas no
+            conceito a agricultura, a pecuária, o reflorestamento e a
+            aquacultura.
+          </p>
+        </div>
+        <p>
+          Fontes:
+          <a
+            href="https://pt.wikipedia.org/wiki/Agricultura_familiar"
+            target="_blank"
+            rel="noopener"
+            class="btn-fonte"
+            >Wikipedia (Agricultura Familiar)</a
+          >
+          <a
+            href="https://pt.wikipedia.org/wiki/Agroneg%C3%B3cio_no_Brasil"
+            target="_blank"
+            rel="noopener"
+            class="btn-fonte"
+            >Wikipedia (Agronegócio)</a
+          >
+          <a
+            href="https://www.conab.gov.br"
+            target="_blank"
+            rel="noopener"
+            class="btn-fonte"
+            >Conab</a
+          >
+        </p>
+      </section>
+
+      <section id="inovacoes">
+        <h2>Inovações na Agronomia</h2>
+        <div class="agro-inte">
+          <h3>
+            Agricultura 4.0: Inteligência Artificial, Automação e Robótica
+          </h3>
+          <p>
+            A Agricultura 4.0 integra tecnologias digitais avançadas, como
+            inteligência artificial, automação e robótica, para otimizar a
+            produção agrícola. No Brasil, iniciativas como a parceria entre a
+            Embrapa e a Agência Espacial Brasileira (AEB) utilizam satélites e
+            sensores para monitorar áreas de produção agropecuária com alta
+            precisão em tempo real. Além disso, a Embrapa desenvolveu métodos
+            para avaliar os impactos ambientais, econômicos e sociais de
+            inovações baseadas em tecnologias da informação e comunicação no
+            setor agrícola.
+          </p>
+        </div>
+        <div class="biotec">
+          <h3>Biotecnologia e Sementes Geneticamente Modificadas</h3>
+          <p>
+            A biotecnologia permite a manipulação do DNA de organismos para
+            conferir características desejáveis, como resistência a pragas ou
+            tolerância a herbicidas. No Brasil, 92% da soja, 90% do milho e 47%
+            do algodão cultivados são geneticamente modificados. Essas culturas
+            apresentam benefícios ambientais, como a redução da necessidade de
+            aplicação de defensivos agrícolas.
+          </p>
+        </div>
+        <div class="irriga">
+          <h3>Irrigação Inteligente</h3>
+          <p>
+            A irrigação inteligente utiliza tecnologias como sensores e Internet
+            das Coisas (IoT) para otimizar o uso da água na agricultura.
+            Pesquisas internacionais, incluindo colaborações entre Brasil,
+            Espanha e Itália, têm demonstrado avanços significativos nesse
+            campo. No Brasil, a Embrapa desenvolveu sensores automatizados que
+            indicam quando e quanto irrigar, promovendo o uso racional da água e
+            aumentando a produtividade das lavouras.
+          </p>
+        </div>
+      </section>
+
+      <section id="sustentabilidade">
+        <div class="susten">
+          <h3>Sustentabilidade no Agro</h3>
+        </div>
+
+        <article class="praticas-sus">
+          <h2>Práticas sustentáveis no campo</h2>
+          <p>
+            Práticas sustentáveis no campo envolvem métodos que protegem o meio
+            ambiente e mantêm a produtividade agrícola e pecuária. Essas
+            práticas incluem o uso consciente da água, rotação de culturas,
+            controle da erosão e redução de agrotóxicos para preservar o solo e
+            os recursos naturais.
+          </p>
+        </article>
+
+        <article class="recuperacao">
+          <h3>Recuperação de áreas degradadas</h3>
+          <p>
+            A recuperação de áreas degradadas é a restauração de solos e
+            ecossistemas danificados pelo uso inadequado, desmatamento ou
+            erosão. Técnicas como o plantio de espécies nativas, adubação
+            orgânica e manejo do solo ajudam a recuperar a fertilidade e a
+            biodiversidade.
+          </p>
+        </article>
+
+        <article class="integracao">
+          <h3>Integração Lavoura-Pecuária-Floresta (ILPF)</h3>
+          <p>
+            A Integração Lavoura-Pecuária-Floresta (ILPF) é um sistema que
+            combina agricultura, criação de animais e plantio de árvores na
+            mesma área, aumentando a produtividade e promovendo a conservação
+            ambiental. Essa técnica melhora o uso do solo, reduz impactos
+            ambientais e fortalece a sustentabilidade no campo.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+  <footer id="contato">
+    <div class="footer-container">
+      <div class="footer-section contato">
+        <h4>Contato</h4>
+        <a href="mailto:kauan.faria.silva@escola.pr.gov.br">Enviar e-mail</a>
+        <br>
+        <a href="https://wa.me/5544999369752">WhatsApp</a>
+      </div>
+      <div class="footer-section redes-sociais">    
+        <h4>Redes Sociais</h4>
+        <p>
+          <a
+            href="https://github.com/Kauan688"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </p>
+        <!-- Adicione mais links se quiser -->
+      </div>
+      <div class="footer-section direitos">
+        <h4>AgroBrasil</h4>
+        <p>© 2025 AgroBrasil. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</html>
