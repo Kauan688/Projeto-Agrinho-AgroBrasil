@@ -50,6 +50,6 @@ Caso queira saber mais ou entrar em contato:
 
 E-mail: kauan.faria.silva@escola.pr.gov.br
 
-WhatsApp: Clique aqui
+WhatsApp: (44) 99936-9752
 
 GitHub: Repositório do projeto
